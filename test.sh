@@ -10,3 +10,5 @@ echo "Home for the current user is: $HOME"
 hostname
 # display model name cpu
 cat /proc/cpuinfo | grep 'model name'
+# display info about hardwares
+lsblk
