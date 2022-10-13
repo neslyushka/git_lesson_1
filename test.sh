@@ -8,3 +8,5 @@ whoami
 echo "Home for the current user is: $HOME"
 # display hostname
 hostname
+# display model name cpu
+cat /proc/cpuinfo | grep 'model name'
