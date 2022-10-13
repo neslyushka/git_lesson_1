@@ -8,7 +8,7 @@ whoami
 echo "Home for the current user is: $HOME"
 # display hostname
 hostname
-# display vendor cpu
-cat /proc/cpuinfo | grep 'vendor'
+# display model cpu
+cat /proc/cpuinfo | grep 'model'
 # display info about hardwares
 lsblk
